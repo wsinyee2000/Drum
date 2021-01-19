@@ -6,8 +6,16 @@
 body {
     background-image: url("img/9ed01cf8c6483ac2984850a42547e41a.jpg");
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
     background-size: cover;
+    min-height: 720px;
+    min-width: 1080px;
+}
+
+.wrapper {
     position: relative;
+    height: 100%;
 }
 
 img {
@@ -50,4 +58,74 @@ span {
     border: 3px solid grey;
     color: black;
     padding: 1px 2px;
+}
+
+#crash1 {
+    position: absolute;
+    left: 36%;
+    top: 360px;
+    width: 10px;
+}
+
+#ride {
+    position: absolute;
+    left: 41%;
+    top: 390px;
+    width: 10px;
+}
+
+#open {
+    position: absolute;
+    left: 59%;
+    top: 380px;
+    width: 10px;
+}
+
+#close {
+    position: absolute;
+    left: 65%;
+    top: 450px;
+    width: 10px;
+}
+
+#mid {
+    position: absolute;
+    left: 46%;
+    top: 450px;
+    width: 10px;
+}
+
+#high {
+    position: absolute;
+    left: 56%;
+    top: 460px;
+    width: 10px;
+}
+
+#crash2 {
+    position: absolute;
+    left: 59%;
+    top: 530px;
+    width: 10px;
+}
+
+#floor {
+    position: absolute;
+    left: 41%;
+    top: 540px;
+    width: 10px;
+}
+
+#kick1 {
+    position: absolute;
+    left: 48%;
+    top: 660px;
+    width: 10px;
+}
+
+#kick2 {
+    position: absolute;
+    left: 54%;
+    top: 660px;
+    width: 10px;
 }
